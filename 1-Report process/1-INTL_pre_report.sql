@@ -66,7 +66,7 @@ where   toYYYYMM(EventDate) = (:yyyymm)
 group by Date,callReference,CallingNumber,CalledNumber,RoamingNumber,CountryCode,Route,CountryName--,calledPartyNumber--callDuration,,callingPartyNumber
 order by Date,CallingNumber,CalledNumber);
 
----------
+-------
 insert into default.Pre_INTL
 
 --MTN Incoming
